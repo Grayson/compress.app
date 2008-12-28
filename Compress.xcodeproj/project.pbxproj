@@ -11,6 +11,7 @@
 		1D13D7C30F0815EC005F9DB2 /* NSBezierPath+FCSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13D7BC0F0815EC005F9DB2 /* NSBezierPath+FCSAdditions.m */; };
 		1D13D7C40F0815EC005F9DB2 /* NSArray+FCSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13D7BD0F0815EC005F9DB2 /* NSArray+FCSAdditions.m */; };
 		1D13D7C50F0815EC005F9DB2 /* NSApplication+FCSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13D7BF0F0815EC005F9DB2 /* NSApplication+FCSAdditions.m */; };
+		1D13D7F10F08244E005F9DB2 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13D7F00F08244E005F9DB2 /* GradientView.m */; };
 		1D1C0A400A8253C500CAB045 /* Compress.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C0A3F0A8253C400CAB045 /* Compress.icns */; };
 		1D1C0A470A82575D00CAB045 /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C0A460A82575D00CAB045 /* DropView.m */; };
 		1D1C0A4A0A82577100CAB045 /* GradientTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C0A490A82577100CAB045 /* GradientTabView.m */; };
@@ -50,6 +51,8 @@
 		1D13D7BF0F0815EC005F9DB2 /* NSApplication+FCSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSApplication+FCSAdditions.m"; path = "../FCSFramework/NSApplication+FCSAdditions.m"; sourceTree = SOURCE_ROOT; };
 		1D13D7C00F0815EC005F9DB2 /* NSApplication+FCSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSApplication+FCSAdditions.h"; path = "../FCSFramework/NSApplication+FCSAdditions.h"; sourceTree = SOURCE_ROOT; };
 		1D13D7C10F0815EC005F9DB2 /* NSBezierPath+FCSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+FCSAdditions.h"; path = "../FCSFramework/NSBezierPath+FCSAdditions.h"; sourceTree = SOURCE_ROOT; };
+		1D13D7EF0F08244E005F9DB2 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		1D13D7F00F08244E005F9DB2 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 		1D1C0A3F0A8253C400CAB045 /* Compress.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Compress.icns; sourceTree = "<group>"; };
 		1D1C0A450A82575D00CAB045 /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
 		1D1C0A460A82575D00CAB045 /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 				1D7FAFAA0F06EE5700A117C1 /* CompressDelegate.m */,
 				1D7FAFB90F06F05F00A117C1 /* DecompressionWindowController.h */,
 				1D7FAFBA0F06F05F00A117C1 /* DecompressionWindowController.m */,
+				1D13D7EF0F08244E005F9DB2 /* GradientView.h */,
+				1D13D7F00F08244E005F9DB2 /* GradientView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				1D13D7C30F0815EC005F9DB2 /* NSBezierPath+FCSAdditions.m in Sources */,
 				1D13D7C40F0815EC005F9DB2 /* NSArray+FCSAdditions.m in Sources */,
 				1D13D7C50F0815EC005F9DB2 /* NSApplication+FCSAdditions.m in Sources */,
+				1D13D7F10F08244E005F9DB2 /* GradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
