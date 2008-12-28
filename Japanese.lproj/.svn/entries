@@ -1,0 +1,47 @@
+8
+
+dir
+2
+https://fromconcentratesoftware.googlecode.com/svn/trunk/Compress/Japanese.lproj
+https://fromconcentratesoftware.googlecode.com/svn
+
+
+
+2007-05-27T22:07:54.459643Z
+2
+grayson.hansard
+
+
+svn:special svn:externals svn:needs-lock
+
+InfoPlist.strings
+file
+
+
+
+
+2006-08-13T17:37:44.000000Z
+503b02bf710f69136bc65c133bd75c2f
+2007-05-27T22:07:54.459643Z
+2
+grayson.hansard
+has-props
+
+MainMenu.nib
+dir
+
+Credits.rtf
+file
+
+
+
+
+2006-08-13T17:37:44.000000Z
+f0d4a61caf597423ff07c5e9b24a345e
+2007-05-27T22:07:54.459643Z
+2
+grayson.hansard
+
+MyDocument.nib
+dir
+

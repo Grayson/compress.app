@@ -1,0 +1,2 @@
+2.0* Completely new interface* Updated p7zip compressor* Compatibility with OS X 10.2 (I think)
+2.1* Now a universal binary* Adds dmg compression* Improved tar compression* Improved gzip compression* Improved bz2 compression* Contains latest to date p7zip (7za) command line application

@@ -1,0 +1,47 @@
+8
+
+dir
+2
+https://fromconcentratesoftware.googlecode.com/svn/trunk/Compress/English.lproj
+https://fromconcentratesoftware.googlecode.com/svn
+
+
+
+2007-05-27T22:07:54.459643Z
+2
+grayson.hansard
+
+
+svn:special svn:externals svn:needs-lock
+
+InfoPlist.strings
+file
+
+
+
+
+2006-08-13T17:37:55.000000Z
+25a78caf4c8f952e005588632e57229d
+2007-05-27T22:07:54.459643Z
+2
+grayson.hansard
+has-props
+
+MainMenu.nib
+dir
+
+Credits.rtf
+file
+
+
+
+
+2006-08-13T17:37:55.000000Z
+7859866f797239ab4d454a904b518d51
+2007-05-27T22:07:54.459643Z
+2
+grayson.hansard
+
+MyDocument.nib
+dir
+

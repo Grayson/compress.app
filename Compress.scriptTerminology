@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Classes</key>
+	<dict>
+		<key>MyDocument</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>compressionMethod</key>
+				<dict>
+					<key>Name</key>
+					<string>compression method</string>
+				</dict>
+				<key>files</key>
+				<dict>
+					<key>Name</key>
+					<string>files</string>
+				</dict>
+			</dict>
+			<key>Name</key>
+			<string>document</string>
+			<key>PluralName</key>
+			<string>documents</string>
+		</dict>
+	</dict>
+	<key>Commands</key>
+	<dict>
+		<key>compress</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>name</key>
+				<dict>
+					<key>Name</key>
+					<string>name</string>
+				</dict>
+			</dict>
+			<key>Name</key>
+			<string>compress</string>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>Compress suite</string>
+</dict>
+</plist>

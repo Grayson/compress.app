@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Compress Help</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+
+<h1>Contents</h1>
+<ul>
+	<li><a href="#about">About Compress</a></li>
+	<li><a href="#reqs">System Requirements</a></li>
+	<li><a href="#applescript">Applescript support</a></li>
+	<li><a href="#faq">FAQs</a></li>
+	<li><a href="#contact">Contact Info</a></li>
+	<li><a href="#donate">Support Compress</a></li>
+</ul>
+
+<a name="about"></a>
+<h1>About Compress</h1>
+
+<p>Compress is a freeware application that handles file compression in many common formats.  These compression formats include tar, zip, bzip2, gzip, disk image, and the relatively new archiving format, p7zip.</p>
+
+<p>To use Compress, drag files or folders onto the main &#8220;Drag file(s) here&#8221; window.  Compress will then show a table of the files that you just dragged as well as some compression options and a few buttons.  You may drag more files onto the table to add them to the archive.  When you have the files you want to compress, select the compression method from the pop up menu on the left side of the window and press the &#8220;Compress&#8221; button.  For single files, Compress will compress the file using the chosen format and leave the archive in the original folder.  For multiple files, Compress will ask for an archive name and then assemble all of the files into a folder.  The folder will then be compressed and placed on the Desktop.</p>
+
+<p>You can also save a Compress document.  Compress documents have a &#8220;.compress&#8221; file extension.  Compress documents save the chosen file compression method as well as the list of files to archive.</p>
+
+<a name="reqs"></a>
+<h1>System Requirements</h1>
+
+<p>Compress is a Universal binary (supports Intel and PPC platforms) and should run on any Apple computer running Mac OS X 10.4 and higher.</p>
+
+<a name="applescript"></a>
+<h1>Applescript support</h1>
+<p>Compress supports applescript for compressing and decompressing files.  Here are a few sample scripts to illustrate using applescript with Compress.</p>
+
+<code></pre>
+tell application "Compress"
+	set x to make new document -- Create new Compress document
+	set files of x to {POSIX path of (path to preferences folder) & "com.fcs.compress.plist"} -- Archive Compress's preferences file
+	set compression method to "p7zip" -- Set the compression method
+	tell x to compress
+end tell
+</pre></code>
+
+<a name="faq"></a>
+<h1>FAQS</h1>
+<h2>Why do the compression options change when I add or remove files?</h2>
+
+<p>Some compression methods will only work on folders (like tar) and some methods will only work on single files (like bzip2 and gzip).  Others will work on any type of file and are always available.</p>
+
+<h2>Why doesn&#8217;t Compress show me how long a file is taking to archive?</h2>
+
+<p>For some compression methods, Compress sends commands to a command line information.  Compress does not receive information from these applications so it cannot estimate how much is being done.</p>
+
+<h2>p7zip is under the LGPL, where is the source to Compress?</h2>
+
+<p>Compress doesn&#8217;t link to any p7zip code.  A (Universal) version of 7za is included in Compress&#8217;s package and it is called to do compression.  Because no linking is going on, I think I&#8217;m complying with the LGPL.  That said, I don&#8217;t mind sharing the source if someone wants it.  I&#8217;ve just been too lazy to prepare the source for distribution.  If you&#8217;d like the source to Compress, please just contact me.  Contact information is below.</p>
+
+<a name="contact"></a>
+<h1>Contact information</h1>
+
+<p>Grayson Hansard<br />
+<a href="mailto:info@fromconcentratesoftware.com">info@fromconcentratesoftware.com</a><br />
+<a href="http://www.fromconcentratesoftware.com/">http://www.fromconcentratesoftware.com/</a>
+</p>
+
+<a name="donate"></a>
+<h1>Support Compress</h1>
+
+<p>Developing Compress takes time and energy.  It is freeware and it will never bother you for donations.  I would, however, be greatly appreciative of any support you would be willing to give.</p>
+
+<p>If you prefer not to donate, please take a moment to check out <a href="http://www.fromconcentratesoftware.com/MacDialer/">MacDialer</a> and <a href="http://www.fromconcentratesoftware.com/SiteTagger/">SiteTagger</a>.  They're great little applications that you might find useful.</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align:center">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+	<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+</form>	
+
+
+</body>
+</html>

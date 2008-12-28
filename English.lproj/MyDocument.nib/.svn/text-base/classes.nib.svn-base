@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = DropTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            CLASS = DropView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GradientTabView; LANGUAGE = ObjC; SUPERCLASS = NSTabView; }, 
+        {
+            ACTIONS = {cancel = id; compress = id; endArchiveNameSheet = id; reveal = id; }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ArchiveNameField = NSTextField; 
+                ArchiveNameWindow = NSWindow; 
+                CompressionPopUpButton = NSPopUpButton; 
+                ProgressIndicator = NSProgressIndicator; 
+                ProgressStatusText = NSTextField; 
+                ProgressWindow = NSWindow; 
+                tabView = NSTabView; 
+                tableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}
