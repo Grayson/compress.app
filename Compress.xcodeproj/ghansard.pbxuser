@@ -49,6 +49,42 @@
 			sepNavWindowFrame = "{{15, 9}, {795, 864}}";
 		};
 	};
+	1D5A840B0F08768D008A73CA /* MyDocument.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MyDocument.m;
+		path = /Users/ghansard/Projects/Compress/MyDocument.m;
+		sourceTree = "<absolute>";
+	};
+	1D5A840F0F08769B008A73CA /* MyDocument.m */ = {
+		isa = PBXFileReference;
+		name = MyDocument.m;
+		path = /Users/ghansard/Projects/Compress/MyDocument.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {491, 4438}}";
+			sepNavSelRange = "{8765, 0}";
+			sepNavVisRange = "{3304, 40}";
+		};
+	};
+	1D5A84120F087726008A73CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "       previous definition of '-[MyDocument saveDocument:]' was here";
+		fRef = 1D5A840B0F08768D008A73CA /* MyDocument.m */;
+		rLen = 1;
+		rLoc = 116;
+		rType = 1;
+	};
+	1D5A84130F087726008A73CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D5A840F0F08769B008A73CA /* MyDocument.m */;
+		name = "MyDocument.m: 309";
+		rLen = 0;
+		rLoc = 8765;
+		rType = 0;
+		vrLen = 40;
+		vrLoc = 3304;
+	};
 	1D7FB0190F06FD4400A117C1 /* FileDropView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {491, 966}}";
@@ -139,8 +175,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 252188094;
-			PBXWorkspaceStateSaveDate = 252188094;
+			PBXPerProjectTemplateStateSaveDate = 252212760;
+			PBXWorkspaceStateSaveDate = 252212760;
+		};
+		perUserProjectItems = {
+			1D5A84120F087726008A73CA /* PBXTextBookmark */ = 1D5A84120F087726008A73CA /* PBXTextBookmark */;
+			1D5A84130F087726008A73CA /* PBXTextBookmark */ = 1D5A84130F087726008A73CA /* PBXTextBookmark */;
 		};
 		sourceControlManager = 1D01C5A00A98EACF000BD163 /* Source Control */;
 		userBuildSettings = {

@@ -114,8 +114,6 @@
 	if ([name length]) [self compressMultipleFilesWithName:name];
 }
 
-- (IBAction)saveDocument:(id)sender { [super saveDocument:sender]; }
-
 #pragma mark -
 #pragma mark Private Methods
 
@@ -209,6 +207,10 @@
 #pragma mark -
 #pragma mark Delegate methods
 
+// - (BOOL)saveToURL:(NSURL *)absoluteURL ofType:(NSString *)typeName forSaveOperation:(NSSaveOperationType)saveOperation error:(NSError **)outError {
+// 	NSLog(@"%s", _cmd);
+// }
+
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
 	if ([keyPath isEqualToString:@"files"]) [tableView reloadData];
@@ -299,8 +301,9 @@
 {
 	SEL action = [anItem action];
 	if (action == @selector(delete:) && [[tableView selectedRowIndexes] count]) return YES;
+	else if (action == @selector(saveDocument:) || action == @selector(saveDocumentAs:)) return [self isDocumentEdited];
 		
-	return NO;
+	return [super validateUserInterfaceItem:anItem];
 }
 
 @end
