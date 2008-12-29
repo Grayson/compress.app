@@ -421,7 +421,7 @@ cleanup:;
 {
 	NSString *pathTo7za = [[NSBundle mainBundle] pathForResource:@"7za" ofType:@""];
 	NSString *outPath = [path stringByDeletingLastPathComponent];
-	NSString *unp7zip = [NSString stringWithFormat:@"'%@' x '%@' -o'%@'", pathTo7za, path, outPath];
+	NSString *unp7zip = [NSString stringWithFormat:@"'%@' x '%@' -o'%@' -y", pathTo7za, path, outPath];
 	system([unp7zip fileSystemRepresentation]);
 }
 

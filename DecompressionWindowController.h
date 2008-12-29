@@ -27,4 +27,6 @@
 + (id)sharedInstance;
 - (void)decompressFile:(NSString *)path;
 
+- (IBAction)stop:(id)sender;
+
 @end

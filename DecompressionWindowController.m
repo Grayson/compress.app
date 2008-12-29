@@ -47,6 +47,13 @@
 	self.currentFilePath = path;
 }
 
+- (IBAction)stop:(id)sender {
+	
+}
+
+#pragma mark -
+#pragma mark Delegate methods
+
 -(void)compressorWillBegin:(Compressor *)compressor {
 	// NSLog(@"%s", _cmd);
 }
