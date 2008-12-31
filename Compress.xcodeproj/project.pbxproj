@@ -22,11 +22,11 @@
 		1D2B3DB10A83CE34006F3282 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B3DAF0A83CE34006F3282 /* Help */; };
 		1D2B3DCD0A83D556006F3282 /* Compress.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B3DCB0A83D556006F3282 /* Compress.scriptSuite */; };
 		1D2B3DCE0A83D556006F3282 /* Compress.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = 1D2B3DCC0A83D556006F3282 /* Compress.scriptTerminology */; };
+		1D525B480F09E19A00244B1F /* 7za in Resources */ = {isa = PBXBuildFile; fileRef = 1D525B470F09E19900244B1F /* 7za */; };
 		1D7FAFAB0F06EE5700A117C1 /* CompressDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FAFAA0F06EE5700A117C1 /* CompressDelegate.m */; };
 		1D7FAFBB0F06F05F00A117C1 /* DecompressionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FAFBA0F06F05F00A117C1 /* DecompressionWindowController.m */; };
 		1D7FAFBD0F06F07600A117C1 /* Decompress.nib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7FAFBC0F06F07600A117C1 /* Decompress.nib */; };
 		1D7FB01B0F06FD4400A117C1 /* FileDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7FB0190F06FD4400A117C1 /* FileDropView.m */; };
-		1D9302910F05C91A0011EED7 /* 7za in Resources */ = {isa = PBXBuildFile; fileRef = 1D9302900F05C91A0011EED7 /* 7za */; };
 		1D9302AE0F05D1A70011EED7 /* NSApplication+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9302AD0F05D1A70011EED7 /* NSApplication+Compress.m */; };
 		1DF8B1E90A8505C500A99BA3 /* Compress.suiteModel in Resources */ = {isa = PBXBuildFile; fileRef = 1DF8B1E80A8505C500A99BA3 /* Compress.suiteModel */; };
 		1DF8B1F50A8508A200A99BA3 /* reveal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF8B1F40A8508A200A99BA3 /* reveal.png */; };
@@ -67,6 +67,7 @@
 		1D2B3DAF0A83CE34006F3282 /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Help; sourceTree = "<group>"; };
 		1D2B3DCB0A83D556006F3282 /* Compress.scriptSuite */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Compress.scriptSuite; sourceTree = "<group>"; };
 		1D2B3DCC0A83D556006F3282 /* Compress.scriptTerminology */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Compress.scriptTerminology; sourceTree = "<group>"; };
+		1D525B470F09E19900244B1F /* 7za */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = 7za; path = "/opt/local/var/macports/software/p7zip/4.58_0+universal/opt/local/lib/p7zip/7za"; sourceTree = "<absolute>"; };
 		1D7FAFA90F06EE5700A117C1 /* CompressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressDelegate.h; sourceTree = "<group>"; };
 		1D7FAFAA0F06EE5700A117C1 /* CompressDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressDelegate.m; sourceTree = "<group>"; };
 		1D7FAFB90F06F05F00A117C1 /* DecompressionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecompressionWindowController.h; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		1D7FAFBC0F06F07600A117C1 /* Decompress.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Decompress.nib; sourceTree = "<group>"; };
 		1D7FB0190F06FD4400A117C1 /* FileDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDropView.m; sourceTree = "<group>"; };
 		1D7FB01A0F06FD4400A117C1 /* FileDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDropView.h; sourceTree = "<group>"; };
-		1D9302900F05C91A0011EED7 /* 7za */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = 7za; path = "/opt/local/var/macports/software/p7zip/4.58_0+universal/opt/local/bin/7za"; sourceTree = "<absolute>"; };
 		1D9302AC0F05D1A70011EED7 /* NSApplication+Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+Compress.h"; sourceTree = "<group>"; };
 		1D9302AD0F05D1A70011EED7 /* NSApplication+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+Compress.m"; sourceTree = "<group>"; };
 		1DF8B1E80A8505C500A99BA3 /* Compress.suiteModel */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Compress.suiteModel; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1D9302900F05C91A0011EED7 /* 7za */,
+				1D525B470F09E19900244B1F /* 7za */,
 				1DF8B1F40A8508A200A99BA3 /* reveal.png */,
 				1D2B3DCB0A83D556006F3282 /* Compress.scriptSuite */,
 				1D2B3DCC0A83D556006F3282 /* Compress.scriptTerminology */,
@@ -281,8 +281,8 @@
 				1D2B3DCE0A83D556006F3282 /* Compress.scriptTerminology in Resources */,
 				1DF8B1E90A8505C500A99BA3 /* Compress.suiteModel in Resources */,
 				1DF8B1F50A8508A200A99BA3 /* reveal.png in Resources */,
-				1D9302910F05C91A0011EED7 /* 7za in Resources */,
 				1D7FAFBD0F06F07600A117C1 /* Decompress.nib in Resources */,
+				1D525B480F09E19A00244B1F /* 7za in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +401,8 @@
 		C05733CC08A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
@@ -411,6 +413,8 @@
 		C05733CD08A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;

@@ -387,6 +387,7 @@ cleanup:;
 		t.arguments = arguments;
 		
 		[t launch];
+		[t waitUntilExit];
 		[t release];		
 	}
 	

@@ -5,8 +5,8 @@
 
 -(void)drawRect:(NSRect)rect
 {
-	[[NSBezierPath bezierPathWithRect:[self bounds]/*rect*/] fillGradientWithStartColor:[NSColor colorWithCalibratedWhite:0.85 alpha:1.]
-															  endColor:[NSColor colorWithCalibratedWhite:0.95 alpha:1.]];
+	[[NSBezierPath bezierPathWithRect:[self bounds]] fillGradientWithStartColor:[NSColor colorWithCalibratedWhite:0.85 alpha:1.]
+                                                                       endColor:[NSColor colorWithCalibratedWhite:0.95 alpha:1.]];
 	[super drawRect:rect];
 }
 

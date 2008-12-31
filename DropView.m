@@ -5,7 +5,6 @@
 - (id)initWithFrame:(NSRect)frameRect
 {
 	if ((self = [super initWithFrame:frameRect]) != nil) {
-		// Add initialization code here
 		[self registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
 	}
 	return self;
